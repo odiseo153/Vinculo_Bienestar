@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "e4JwviDb0sjS4jA93jUfaoxHVLMM+TGhf9i++VSO8L9fM0JANg84W8g+JOple3HovH1oE4zOuT05TvK0047ZKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Odiseo\\Desktop\\Todo\\ITLA\\cuatrimestre 9 (Actual)\\proyecto final\\Vinculo_Bienestar\\Backend\\Vinculo_Bienestar_Api\\Vinculo_Bienestar_Api.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

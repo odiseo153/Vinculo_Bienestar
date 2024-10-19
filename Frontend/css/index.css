@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+}
+.bg-primary {
+    background-color: #6C63FF !important; /* Un morado suave */
+}
+.text-primary {
+    color: #6C63FF !important;
+}
+.bg-light {
+    background-color: #ffffff !important;
+}
+.card {
+    background-color: #F7FAFC;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+}
+.btn-primary:hover {
+    background-color: #574BFF;
+}
+.btn-outline-light {
+    color: #6C63FF;
+    border-color: #6C63FF;
+}
+.btn-outline-light:hover {
+    background-color: #6C63FF;
+    color: #fff;
+}
+footer {
+    background-color: #2C3E50;
+}

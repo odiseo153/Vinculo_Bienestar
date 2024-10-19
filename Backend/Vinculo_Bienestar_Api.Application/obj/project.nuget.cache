@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1JBt8hFXb3LPqAIzRi3glpYWSA5j1a9R1oSwaMBetjZM/zzsI5vXa7JF5btE+pR2o0jgJ5i8AOuY5b0XRxUZRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Odiseo\\Desktop\\Todo\\ITLA\\cuatrimestre 9 (Actual)\\proyecto final\\Vinculo_Bienestar\\Backend\\Vinculo_Bienestar_Api.Application\\Vinculo_Bienestar_Api.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Odiseo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
