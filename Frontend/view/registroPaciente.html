@@ -1,0 +1,85 @@
+<div class="container-fluid text-dark py-3">
+    <header class="text-center">
+        <h1 class="display-5">Registro de Pacientes</h1>
+    </header>
+</div>
+
+<section class="bg-light border rounded shadow-lg container my-4 w-50 p-5">
+    <p class="lead text-center mb-4">Complete el formulario para registrarse como paciente</p>
+    <form class="row g-4" novalidate>
+
+        <!-- Campo de Nombre -->
+        <div class="col-md-6">
+            <label for="nombreInput" class="form-label font-bold">Nombre:</label>
+            <input type="text" class="form-control" id="nombreInput" placeholder="Ingrese su nombre" required>
+            <div class="invalid-feedback">Por favor, complete este campo.</div>
+        </div>
+
+        <!-- Campo de Edad -->
+        <div class="col-md-6">
+            <label for="ageInput" class="form-label">Edad:</label>
+            <input type="number" class="form-control" id="ageInput" placeholder="Ingrese su edad" required>
+            <div class="invalid-feedback">Por favor, ingrese su edad.</div>
+        </div>
+
+        <!-- Campo de Email -->
+        <div class="col-md-6">
+            <label for="emailInput" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Ingrese su email" required>
+            <div class="invalid-feedback">Por favor, ingrese un email válido.</div>
+        </div>
+
+        <!-- Campo de Contraseña -->
+        <div class="col-md-6">
+            <label for="inputPass" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="inputPass" placeholder="Ingrese una contraseña" required>
+            <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
+        </div>
+
+        <!-- Campo de Con quién vive -->
+        <div class="col-md-6">
+            <label for="live" class="form-label">¿Con quién vive?</label>
+            <select class="form-select" id="live" required>
+                <option selected disabled value="">Elegir...</option>
+                <option value="1">Con mis padres</option>
+                <option value="2">Solo(a)</option>
+                <option value="3">Otros</option>
+            </select>
+            <div class="invalid-feedback">Por favor, seleccione una opción.</div>
+        </div>
+
+        <!-- Campo de Foto de perfil (opcional) -->
+        <div class="col-md-6">
+            <label for="fotoperfil" class="form-label">Foto de perfil (Opcional):</label>
+            <input type="file" class="form-control" id="fotoperfil" accept="image/*">
+        </div>
+
+        <!-- Campo de Comentario (opcional) -->
+        <div class="col-12">
+            <label for="comment" class="form-label">Comentario (Opcional):</label>
+            <textarea class="form-control" id="comment" placeholder="Comentario (Opcional)" rows="4"></textarea>
+        </div>
+
+        <!-- Campo de Condiciones -->
+        <div class="col-12">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkTerms" required>
+                <label class="form-check-label" for="checkTerms">Acepto los términos y condiciones</label>
+                <div class="invalid-feedback">Debe aceptar los términos y condiciones.</div>
+            </div>
+        </div>
+
+        <!-- Botón de enviar -->
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-danger btn-lg">Enviar Formulario</button>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-danger btn-lg">Soy Doctor</button>
+        </div>
+    </form>
+</section>
+
+<script>
+    // Validación personalizada para mostrar los errores solo después de la interacción
+</script>

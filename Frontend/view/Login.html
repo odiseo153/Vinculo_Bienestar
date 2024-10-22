@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Pacientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+
+    
+    <section class="bg-custom container my-4 w-50 p-4">
+    <div class="container-fluid text-dark py-3">
+        <header class="text-center">
+            <h1 class="display-6">Login</h1>
+        </header>
+    </div>
+    <form class="login row g-3 needs-validation" novalidate>
+
+        <!-- Campo de Email -->
+        <div class="col-md-12">
+            <label for="emailInput" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Ingrese su email" required>
+            <div class="invalid-feedback">Por favor, ingrese un email.</div>
+        </div>
+
+        <!-- Campo de Contraseña -->
+        <div class="col-md-12">
+            <label for="inputPass" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="inputPass" placeholder="Ingrese una contraseña" required>
+            <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
+        </div>
+
+        <!-- Botón de enviar -->
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success">Enviar Formulario</button>
+        </div>
+
+        <div class="col-12 text-center">
+            <a href="#" class="text-primary" onclick="showView('view/registroPaciente.html')">No tienes cuenta?</a>
+        </div>
+    </form>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Validación personalizada para mostrar los errores solo cuando el campo ha sido tocado y está vacío
+    (() => {
+        'use strict';
+        const forms = document.querySelectorAll('.needs-validation');
+
+        Array.prototype.slice.call(forms).forEach((form) => {
+            form.addEventListener('submit', (event) => {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+
+                form.classList.add('was-validated');
+            }, false);
+
+            form.addEventListener('focusout', (event) => {
+                const input = event.target;
+                if (!input.checkValidity()) {
+                    input.classList.add('is-invalid');
+                }
+            });
+
+            form.addEventListener('input', (event) => {
+                const input = event.target;
+                if (input.checkValidity()) {
+                    input.classList.remove('is-invalid');
+                }
+            });
+        });
+    })();
+</script>
+
+</body>
+</html>
